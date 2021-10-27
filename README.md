@@ -2,10 +2,7 @@
 The repo for React Native Assessment Project
 
 
-
 ## 1. Installation Instructions.
-
-The application is built using react-native and some native code thus it requires environment setup for both.
 
 - You must have Xcode installed on your macOS.
 
@@ -44,7 +41,7 @@ brew install watchman
 
 > **Via NPM**
 ```
-cd assessment
+cd react-native-assessment-project
 npm i
 ```
 
@@ -54,12 +51,12 @@ npm i
 npm install --global yarn
 ```
 ```
-cd assessment
+cd react-native-assessment-project
 yarn install
 ```
 
 
-> Setup Cocoapod dependencies inside the kanjo-mobile repo
+> Setup Cocoapod dependencies inside the react-native-assessment-project repo
 ```
 cd ios
 pod install
@@ -71,7 +68,7 @@ pod install
 Inside the project folder go to "constants" folder there will be a file named "APIConstants.js", open that file and add your authentication token inside the quotes to make the application work.
 
 ```
-cd assessment
+cd react-native-assessment-project
 react-native run-ios
 ```
 This should run the application on the iOS simulator.
